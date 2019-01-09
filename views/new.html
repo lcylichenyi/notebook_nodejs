@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+  </style>
+</head>
+<body>
+    <div class="container">
+      <div class="jumbotron text-center">
+      <h1>在此记下新知识吧！</h1>
+      <p>day day up</p>
+    </div>
+    <form action="/errbook/new" method="post">
+      <label for="title">标题：</label><input type="text" name="title" class="input-lg form-control" id="title"><br />
+      <label for="title">内容：</label><textarea class="form-control" rows="15" name="text" id="text"></textarea>  <br />   
+      <input type="submit" value="提交" class="btn btn-success btn-lg">
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
